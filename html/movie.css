@@ -26,6 +26,7 @@ color: rgb(41, 27, 25);
 .cate{
     background-image: url("../texture1.jpg");
     margin: 20px;
+    border-radius: 6px;
 }
 h3{
     font-family: 'M PLUS Rounded 1c', sans-serif;
