@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(254, 255, 176);
+    margin: 0;
+}
+.head{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.head p{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(88, 48, 38);
+    text-align: center;
+    margin: 0;
+    display: block;
+    font-size: 25px;
+transform: translateY(15px);
+}
+.news{
+    display: block;
+    text-align: center;
+}
+.news iframe{
+    border: darkgreen;
+    width: 90%;
+}
+.categoly_main{
+    margin: 20px;
+    text-align: center;
+}
+.cate_1{
+    width: 40%;
+    height: 120px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 6px;
+    background-image: url(img_1.jpg);
+    background-size: 100%;
+}
+.cate_2{
+    width: 40%;
+    height: 120px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 6px;
+    background-image: url(img_2.jpg);
+    background-size: 100%;
+}
+.cate_1 img{
+    width: 100%;
+}
+.categoly_main a{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Do Hyeon', sans-serif;
+    display: inline-block;
+    transform: translateY(38px);
+}
